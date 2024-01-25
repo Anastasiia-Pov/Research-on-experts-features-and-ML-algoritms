@@ -31,7 +31,9 @@ The codes for these experiments can be observed in the following files: for Nons
 The metrics that were observed are: F1 for each class, Average Weighted Precision, Average Weighted Recall, Average Weighted F1, Accuracy.
 
 **Third set of experimnets:**
-was about cross-corpus research. These datasets have in common 3 classes: laugh, cough, sneeze. Based on these classes was completed cross-corpus research.
+was about cross-corpus research. These datasets have in common 3 classes: laugh, cough, sneeze. Based on these classes was completed cross-corpus research. There were tested two options: 
+a) Nonspeech for train set, Vocal Sound for test set; 
+b) Vocal Sound for train, Nonspeech for test set.
 The code for these experiments can be observed in the following file: for Nonspeech7k - "Cross-corpus research".
 The metrics that were observed are: Precision, Recall, Average Precision and Recall, Accuracy.
 
@@ -112,3 +114,27 @@ Accuracy Score = 0.872 ± 0.001
 |Metrics |SOTA|LDA+IS13|NN+IS13|
 |--------|:--:|:------:|:------:|
 |Accuracy|90.5|87.4    |85.9    |
+
+**3. Third set of experiments:** 
+3) The best results were achieved in the following case: Vocal Sound for train set, Nonspeech7k for test set, LDA and Neural Network showed the best results woth Interpseech 2013.
+**LDA:**
+|  Class         | F1-score  |Recall  |Precision|
+|----------------|:---------:|:------:|:-------:|
+| cough/кашель   |  0.74     |0.74    |0.75     |
+| laugh/смех     |  0.80     |0.69    |0.95     |
+| sneeze/чихание |  0.52     |0.85    |0.37     |
+|Average Weighted Recall|  0.73 |
+|Average Weighted Precision|  0.81 |
+|Average Weighted F1|  0.75 |
+|Accuracy|  0.73 |
+
+**Neural Network:**
+|  Class         | F1-score  |Recall  |Precision|
+|----------------|:---------:|:------:|:-------:|
+| cough/кашель   |  0.75     |0.73    |0.78     |
+| laugh/смех     |  0.80     |0.71    |0.93     |
+| sneeze/чихание |  0.52     |0.86    |0.37     |
+|Average Weighted Recall|  0.73 |
+|Average Weighted Precision|  0.82|
+|Average Weighted F1|  0.75 |
+|Accuracy|  0.73 |
