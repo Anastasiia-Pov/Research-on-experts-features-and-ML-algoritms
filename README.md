@@ -1,4 +1,4 @@
-![image](https://github.com/Anastasiia-Pov/Research-on-experts-features-and-ML-algoritms/assets/100669169/88d0950c-7d8c-42e1-971f-04873664f43d)# Research on experts features and ML-algoritms
+# Research on experts features and ML-algoritms
 This research is about influence of number of extracted features from audio-files and the quality of classification with the use of ML-algorithms
 
 ## Extracted features:
@@ -110,5 +110,5 @@ Accuracy Score = 0.872 ± 0.001
 2.2) The best results for Vocal Sound were got with LDA and Nearal Network (NN)+ Interspeech 2013 (IS13) features. The SOTA results were not outclassed The results are the following:
 
 |Metrics |SOTA|LDA+IS13|NN+IS13|
-|--------|:--:|:------:|------:|
-|Accuracy|90.5|87.4    |85.9   |
+|--------|:--:|:------:|:------:|
+|Accuracy|90.5|87.4    |85.9    |
