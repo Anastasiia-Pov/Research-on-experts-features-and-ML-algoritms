@@ -92,9 +92,9 @@ Accuracy Score = 0.872 ± 0.001
 |Average Scores             |  0.747 ± 0.004 | 0.747 ± 0.005 |
 
 **2. Second set of experiments:** 
-2.1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2013 (IS13) features. It was possible to outclass the SOTA results. The results are the following:
+2.1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network (NN)+ Interspeech 2013 (IS13) features. It was possible to outclass the SOTA results. The results are the following:
 **SVM-rbf:**
-|  Class         | F1(SOTA)  | F1(LDA+IS13) |F1 (Neural Network+IS13)|
+|  Class         | F1(SOTA)  | F1(SVM-rbf+IS13) |F1 (NN+IS13)|
 |----------------|:---------:|:------------:|:------------:|
 | breath/дыхание |0.85       | 0.91         | 0.91|
 | cough/кашель   |  0.76     | 0.68         | 0.72|
@@ -107,4 +107,8 @@ Accuracy Score = 0.872 ± 0.001
 |Average Weighted Precision|  0.81   | 0.84 | 0.83 |
 |Average Weighted F1|  0.80  | 0.84 | 0.82 |
 
+2.2) The best results for Vocal Sound were got with LDA and Nearal Network (NN)+ Interspeech 2013 (IS13) features. The SOTA results were not outclassed The results are the following:
 
+|Metrics |SOTA|LDA+IS13|NN+IS13|
+|--------|:--:|:------:|------:|
+|Accuracy|90.5|87.4    |85.9   |
