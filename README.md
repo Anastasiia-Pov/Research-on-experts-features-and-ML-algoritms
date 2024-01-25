@@ -36,7 +36,6 @@ The code for these experiments can be observed in the following file: for Nonspe
 **First set of experiments:** 
 1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2013 features. The results are the following:
 
--------------------|:--------------:|---------------|:--------------:|---------------|  
 |                  |           **SVM_RBF:**         |        **Neural Network:**     |
 -------------------|:--------------:|:-------------:|:--------------:|:-------------:|
 |  **Class**       | **Recall**     | **Precision** | **Recall**     | **Precision** |
