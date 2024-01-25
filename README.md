@@ -66,6 +66,7 @@ Accuracy Score = 0.855 ± 0.004
 |Average Scores   |  0.708 ± 0.037 | 0.776 ± 0.024 |
 
 2) The best results for Vocal Sound were got with SVM-rbf and Nearal Network + Interspeech 2010 features. The results are the following:
+
 **SVM-rbf:**
 Accuracy Score = 0.834 ± 0.003  
 |  Class                    | Recall         | Precision     |
