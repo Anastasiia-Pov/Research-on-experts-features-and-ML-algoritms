@@ -5,11 +5,11 @@ This research is about influence of number of extracted features from audio-file
 All the features were extracted with openSMILE: (https://www.audeering.com/research/opensmile/)
 The acoustic features that were used for the experiment are the following (in commas represented the number of features): GEMAPS(62), eGEMAPS(88), Interspeech 2009(384), Interspeech 2010(1582), Interspeech 2013(6373).
 Form each audiofile were extracted the number of features that correlates with the set of features. Extraction of features was performed separetly from the common code of the experiment.
-----
+
 ## The dataset:
 The dataset that was used for the experimnent is Nonspeech7k: (https://zenodo.org/records/6967442). 
 In the dataset were represented 7 classes of events: breath-1850, cough-702, cry-1996, laugh-1273, scream-663, sneeze-266, yawn-264.
-----
+
 ## The pipeline of expreiment:
 1) Extraction of features.
 2) Dimensionality reduction for each dataset of features.
