@@ -14,23 +14,26 @@ In the Nonspeech7k dataset were represented 7 classes of events: breath-1850, co
 In the Vocal Sound dataset were representes 6 classes: laugh-3504, sigh-3504, cough-3504, sneeze-3504, sniff-3504, throatclearing-3504.
 
 ## The pipeline of expreiments:
-1) Dimensionality reduction for each dataset of features.
-2) Classification with the chosen ML-algoritms: SVM (with three types of kernels(linear, rbf, sigmoid), LDA, kNN, Logistic Regression, Decision Tree, and Neural Network that was done with MLP-Classifier [sklearn] (https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html).
+1) Extraction of features.
+2) Dimensionality reduction for each dataset of features.
+3) Classification with the chosen ML-algoritms: SVM (with three types of kernels(linear, rbf, sigmoid), LDA, kNN, Logistic Regression, Decision Tree, and Neural Network that was done with MLP-Classifier [sklearn] (https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html).
 
 ## Three sets of expreiments:
 **First set of experiments:** 
 was about testing how good ML-algorithms cope with the task of classification classes representd in the datasets**
-Classification using Cross-Validation 5x2. Ml-algorithms that were used: 
+Classification using Cross-Validation 5x2 with the count of confidence interval.
 The metrics that were observed are: Precision, Recall, Average Precision and Recall, Accuracy.
 The codes for these experiments can be observed in the following files: for Nonspeech7k - "Crocc-validation for Nonspeech7k", for Vocal Sound - "Crocc-validation for Vocal Sound".
 
 **Second set of experiments:** 
 was about comparing the original results with the results that were got with the chosen ML-approaches mentioned above. The split into test-train sets was used according to the original one. But to mention, as long as Vocal Sound dataset has 3 splits: train, validation and split, there were organised two kinds of spliting: a. train-test spliting (ommiting validation set), and b. train+validation set-test (train and validation sets were joined).
 The codes for these experiments can be observed in the following files: for Nonspeech7k - "SOTA for Nonspeech7k", for Vocal Sound - "SOTA for Vocal Sound".
+The metrics that were observed are: F1 for each class, Average Weighted Precision, Average Weighted Recall, Average Weighted F1, Accuracy.
 
 **Third set of experimnets:**
 was about cross-corpus research. These datasets have in common 3 classes: laugh, cough, sneeze. Based on these classes was completed cross-corpus research.
 The code for these experiments can be observed in the following file: for Nonspeech7k - "Cross-corpus research".
+The metrics that were observed are: Precision, Recall, Average Precision and Recall, Accuracy.
 
 ## Results:
 **First set of experiments:** 
