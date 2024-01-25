@@ -37,7 +37,7 @@ The metrics that were observed are: Precision, Recall, Average Precision and Rec
 
 ## Results:
 **1. First set of experiments:** 
-1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2010 features. The results are the following:
+1.1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2010 features. The results are the following:
 
 **SVM-rbf:**
 Accuracy Score = 0.860 ± 0.004  
@@ -65,7 +65,7 @@ Accuracy Score = 0.855 ± 0.004
 | yawn/зевание    |  0.604 ± 0.028 | 0.698 ± 0.030 |
 |Average Scores   |  0.708 ± 0.037 | 0.776 ± 0.024 |
 
-2) The best results for Vocal Sound were got with SVM-rbf and Nearal Network + Interspeech 2010 features. The results are the following:
+1.2) The best results for Vocal Sound were got with SVM-rbf and Nearal Network + Interspeech 2010 features. The results are the following:
 
 **SVM-rbf:**
 Accuracy Score = 0.834 ± 0.003  
