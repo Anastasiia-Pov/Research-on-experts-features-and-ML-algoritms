@@ -36,10 +36,10 @@ The code for these experiments can be observed in the following file: for Nonspe
 The metrics that were observed are: Precision, Recall, Average Precision and Recall, Accuracy.
 
 ## Results:
-**First set of experiments:** 
+** 1. First set of experiments:** 
 1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2010 features. The results are the following:
 
-**SVM_RBF:**
+**SVM-rbf:**
 Accuracy Score = 0.860 ± 0.004  
 |  Class         | Recall         | Precision     |
 |----------------|----------------|---------------|
@@ -51,8 +51,6 @@ Accuracy Score = 0.860 ± 0.004
 | sneeze/чихание |  0.424 ± 0.033 | 0.871 ± 0.017 |
 | yawn/зевание   |  0.639 ± 0.028 | 0.901 ± 0.027 |
 |Average Scores  |  0.772 ± 0.016 | 0.850 ± 0.015 |
-
-       
 
 **Neural Network:**
 Accuracy Score = 0.855 ± 0.004
@@ -67,7 +65,29 @@ Accuracy Score = 0.855 ± 0.004
 | yawn/зевание    |  0.604 ± 0.028 | 0.698 ± 0.030 |
 |Average Scores   |  0.708 ± 0.037 | 0.776 ± 0.024 |
 
-                    
+2) The best results for Vocal Sound were got with SVM-rbf and Nearal Network + Interspeech 2010 features. The results are the following:
+**SVM-rbf:**
+Accuracy Score = 0.834 ± 0.003  
+|  Class                    | Recall         | Precision     |
+|---------------------------|----------------|---------------|
+| cough/кашель              |  0.786 ± 0.009 | 0.776 ± 0.008 |
+| laugh/смех                |  0.869 ± 0.009 | 0.871 ± 0.010 |
+| sigh/вздох                |  0.874 ± 0.004 | 0.853 ± 0.007 |
+| laugh/смех                |  0.836 ± 0.006 | 0.814 ± 0.008 |
+| sniff/вдыхание носом      |  0.894 ± 0.004 | 0.885 ± 0.007 |
+| throatcl./прочищение горла|  0.746 ± 0.008 | 0.804 ± 0.006 |
+|Average Scores             |  0.772 ± 0.016 | 0.850 ± 0.015 |
 
+**Neural Network:**
+Accuracy Score = 0.840 ± 0.002 
+|  Class                    | Recall         | Precision     |
+|---------------------------|----------------|---------------|
+| cough/кашель              |  0.788 ± 0.007 | 0.782 ± 0.007 |
+| laugh/смех                |  0.872 ± 0.007 | 0.885 ± 0.008 |
+| sigh/вздох                |  0.870 ± 0.006 | 0.864 ± 0.007 |
+| laugh/смех                |  0.852 ± 0.005 | 0.844 ± 0.006 |
+| sniff/вдыхание носом      |  0.890 ± 0.007 | 0.885 ± 0.005 |
+| throatcl./прочищение горла|  0.768 ± 0.007 | 0.779 ± 0.008 |
+|Average Scores             |  0.720 ± 0.006 | 0.720 ± 0.006 |
 
-
+** 2. Second set of experiments:** 
