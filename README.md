@@ -36,7 +36,7 @@ The code for these experiments can be observed in the following file: for Nonspe
 The metrics that were observed are: Precision, Recall, Average Precision and Recall, Accuracy.
 
 ## Results:
-** 1. First set of experiments:** 
+**1. First set of experiments:** 
 1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2010 features. The results are the following:
 
 **SVM-rbf:**
@@ -91,4 +91,4 @@ Accuracy Score = 0.840 ± 0.002
 | throatcl./прочищение горла|  0.768 ± 0.007 | 0.779 ± 0.008 |
 |Average Scores             |  0.720 ± 0.006 | 0.720 ± 0.006 |
 
-** 2. Second set of experiments:** 
+**2. Second set of experiments:** 
