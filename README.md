@@ -46,8 +46,8 @@ The code for these experiments can be observed in the following file: for Nonspe
 | scream/крик    |  0.862 ± 0.013 | 0.766 ± 0.020 |
 | sneeze/чихание |  0.487 ± 0.032 | 0.911 ± 0.030 |
 | yawn/зевание   |  0.593 ± 0.043 | 0.883 ± 0.034 |
-Average Scores   |  0.767 ± 0.019 | 0.850 ± 0.021 |
-|Accuracy Score: 0.854 ± 0.004                   ||
+|Average Scores  |  0.767 ± 0.019 | 0.850 ± 0.021 |
+|Accuracy Score  |        0.854 ± 0.004          ||
 
 
 
