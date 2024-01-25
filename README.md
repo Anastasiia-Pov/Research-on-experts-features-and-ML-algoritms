@@ -2,14 +2,14 @@
 This research is about influence of number of extracted features from audio-files and the quality of classification with the use of ML-algorithms
 
 ## Extracted features:
-All the features were extracted with openSMILE: (https://www.audeering.com/research/opensmile/)
+All the features were extracted with openSMILE: [openSMILE] (https://www.audeering.com/research/opensmile/)
 The acoustic features that were used for the experiment are the following (in commas represented the number of features): GEMAPS(62), eGEMAPS(88), Interspeech 2009(384), Interspeech 2010(1582), Interspeech 2013(6373).
 Form each audiofile were extracted the number of features that correlates with the set of features. Extraction of features was performed separetly from the common code of the experiment.
 
-All the extracted features to repeat the experimnets are represented here: (https://drive.google.com/drive/folders/1p_K0Nz_z4swBj7MWu47g6uqjG_TvwE-K?usp=sharing)
+All the extracted features to repeat the experimnets are represented here: https://drive.google.com/drive/folders/1p_K0Nz_z4swBj7MWu47g6uqjG_TvwE-K?usp=sharing.
 
 ## The datasets:
-The datasets that were used for the experimnent are Nonspeech7k: (https://zenodo.org/records/6967442) and Vocal Sound (https://github.com/YuanGongND/vocalsound). 
+The datasets that were used for the experimnent are Nonspeech7k: [zenodo] (https://zenodo.org/records/6967442) and Vocal Sound [github] (https://github.com/YuanGongND/vocalsound). 
 In the Nonspeech7k dataset were represented 7 classes of events: breath-1850, cough-702, cry-1996, laugh-1273, scream-663, sneeze-266, yawn-264.
 In the Vocal Sound dataset were representes 6 classes: laugh-3504, sigh-3504, cough-3504, sneeze-3504, sniff-3504, throatclearing-3504.
 
