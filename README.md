@@ -38,6 +38,7 @@ The code for these experiments can be observed in the following file: for Nonspe
    
   
 |                  |           **SVM_RBF:**         |        **Neural Network:**     |
+
 -------------------|:--------------:|---------------|:--------------:|---------------|
 |  **Class**       | **Recall**     | **Precision** | **Recall**     | **Precision** |
 -------------------|:--------------:|---------------|:--------------:|---------------|
