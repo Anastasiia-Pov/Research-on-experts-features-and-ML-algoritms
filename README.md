@@ -30,7 +30,7 @@ was about comparing the original results with the results that were got with the
 The codes for these experiments can be observed in the following files: for Nonspeech7k - "SOTA for Nonspeech7k", for Vocal Sound - "SOTA for Vocal Sound".
 The metrics that were observed are: F1 for each class, Average Weighted Precision, Average Weighted Recall, Average Weighted F1, Accuracy.
 
-**Third set of experimnets:**
+**Third set of experiments:**
 was about cross-corpus research. These datasets have in common 3 classes: laugh, cough, sneeze. Based on these classes was completed cross-corpus research. There were tested two options: 
 a) Nonspeech for train set, Vocal Sound for test set; 
 b) Vocal Sound for train, Nonspeech for test set.
