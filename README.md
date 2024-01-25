@@ -35,8 +35,8 @@ The code for these experiments can be observed in the following file: for Nonspe
 ## Results:
 **First set of experiments:** 
 1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2013 features. The results are the following:
-SVM_RBF:                                                 
-|  Class         | Recall         | Precision     | 
+SVM_RBF:                                              
+|  Class         | Recall         | Precision     |
 |----------------|:--------------:|--------------:|       
 | breath/дыхание |  0.972 ± 0.004 | 0.931 ± 0.006 |       
 | cough/кашель   |  0.759 ± 0.016 | 0.780 ± 0.021 |       
@@ -44,10 +44,8 @@ SVM_RBF:
 | laugh/смех     |  0.815 ± 0.017 | 0.830 ± 0.021 |       
 | scream/крик    |  0.862 ± 0.013 | 0.766 ± 0.020 |       
 | sneeze/чихание |  0.487 ± 0.032 | 0.911 ± 0.030 |       
-| yawn/зевание   |  0.593 ± 0.043 | 0.883 ± 0.034 |       
-----------------------------------|---------------|       
+| yawn/зевание   |  0.593 ± 0.043 | 0.883 ± 0.034 |             
 Average Scores   |  0.767 ± 0.019 | 0.850 ± 0.021 |       
------------------|----------------|---------------|       
 Accuracy Score: 0.854 ± 0.004                     |       
        
 
@@ -61,8 +59,6 @@ Neural Network:
 | scream/крик    |  0.824 ± 0.011 | 0.842 ± 0.007 |
 | sneeze/чихание |  0.575 ± 0.038 | 0.758 ± 0.029 |
 | yawn/зевание   |  0.666 ± 0.031 | 0.828 ± 0.039 |
------------------|----------------|---------------|
 Average Scores   |  0.786 ± 0.019 | 0.829 ± 0.019 |
------------------|----------------|---------------|
 Accuracy Score: 0.855 ± 0.004                     |
 
