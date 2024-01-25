@@ -17,6 +17,7 @@ In the Vocal Sound dataset were representes 6 classes: laugh-3504, sigh-3504, co
 1) Dimensionality reduction for each dataset of features.
 2) Classification with the chosen ML-algoritms: SVM (with three types of kernels(linear, rbf, sigmoid), LDA, kNN, Logistic Regression, Decision Tree, and Neural Network that was done with MLP-Classifier [sklearn] (https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html).
 
+## Three sets of expreiments:
 **First set of experiments:** 
 was about testing how good ML-algorithms cope with the task of classification classes representd in the datasets**
 Classification using Cross-Validation 5x2. Ml-algorithms that were used: 
