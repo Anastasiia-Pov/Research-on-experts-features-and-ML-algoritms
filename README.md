@@ -92,19 +92,19 @@ Accuracy Score = 0.872 ± 0.001
 |Average Scores             |  0.747 ± 0.004 | 0.747 ± 0.005 |
 
 **2. Second set of experiments:** 
-2.1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2013 features. It was possible to outclass the SOTA results. The results are the following:
+2.1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2013 (IS13) features. It was possible to outclass the SOTA results. The results are the following:
 **SVM-rbf:**
-|  Class         | F1(SOTA)  | F1(LDA+IS13) |
-|----------------|:---------:|:------------:|
-| breath/дыхание |0.85       | 0.91         |
-| cough/кашель   |  0.76     | 0.68         |
-| cry/плач       |  0.79   | 0.862 ± 0.017 |
-| laugh/смех     |  0.78   | 0.819 ± 0.014 |
-| scream/крик    |  0.83   | 0.765 ± 0.015 |
-| sneeze/чихание |  0.65   | 0.871 ± 0.017 |
-| yawn/зевание   |  0.77   | 0.901 ± 0.027 |
-|Average Weighted Recall|  0.79   | 0.82 |
-|Average Weighted Precision|  0.81   | 0.84 |
-|Average Weighted F1|  0.80  | 0.84 |
+|  Class         | F1(SOTA)  | F1(LDA+IS13) |F1 (Neural Network+IS13)|
+|----------------|:---------:|:------------:|:------------:|
+| breath/дыхание |0.85       | 0.91         | 0.91|
+| cough/кашель   |  0.76     | 0.68         | 0.72|
+| cry/плач       |  0.79     | 0.83         | 0.78|
+| laugh/смех     |  0.78     | 0.83         | 0.87|
+| scream/крик    |  0.83     | 0.85         | 0.82|
+| sneeze/чихание |  0.65     | 0.65         | 0.61|
+| yawn/зевание   |  0.77     | 0.79         | 0.82|
+|Average Weighted Recall|  0.79   | 0.82 | 0.82 |
+|Average Weighted Precision|  0.81   | 0.84 | 0.83 |
+|Average Weighted F1|  0.80  | 0.84 | 0.82 |
 
 
