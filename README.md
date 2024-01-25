@@ -46,6 +46,7 @@ The code for these experiments can be observed in the following file: for Nonspe
 | sneeze/чихание  |  0.487 ± 0.032 | 0.911 ± 0.030 |
 | yawn/зевание    |  0.593 ± 0.043 | 0.883 ± 0.034 |
 **Average Scores**|  0.767 ± 0.019 | 0.850 ± 0.021 |
+|-----------------|:--------------:|--------------:|
 **Accuracy Score**|            0.854 ± 0.004       |       
 
 **Neural Network:**
@@ -59,6 +60,7 @@ The code for these experiments can be observed in the following file: for Nonspe
 | sneeze/чихание  |  0.575 ± 0.038 | 0.758 ± 0.029 |
 | yawn/зевание    |  0.666 ± 0.031 | 0.828 ± 0.039 |
 **Average Scores**|  0.786 ± 0.019 | 0.829 ± 0.019 |
+|-----------------|:--------------:|--------------:|
 **Accuracy Score**|          0.855 ± 0.004         |
 
 
