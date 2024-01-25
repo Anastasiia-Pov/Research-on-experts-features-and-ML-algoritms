@@ -1,4 +1,4 @@
-# Research on experts features and ML-algoritms
+![image](https://github.com/Anastasiia-Pov/Research-on-experts-features-and-ML-algoritms/assets/100669169/88d0950c-7d8c-42e1-971f-04873664f43d)# Research on experts features and ML-algoritms
 This research is about influence of number of extracted features from audio-files and the quality of classification with the use of ML-algorithms
 
 ## Extracted features:
@@ -15,7 +15,7 @@ In the Vocal Sound dataset were representes 6 classes: laugh-3504, sigh-3504, co
 
 ## The pipeline of expreiments:
 1) Extraction of features.
-2) Dimensionality reduction for each dataset of features.
+2) Dimensionality reduction for each dataset of features (with PCA).
 3) Classification with the chosen ML-algoritms: SVM (with three types of kernels(linear, rbf, sigmoid), LDA, kNN, Logistic Regression, Decision Tree, and Neural Network that was done with MLP-Classifier [sklearn] (https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html).
 
 ## Three sets of expreiments:
@@ -92,3 +92,19 @@ Accuracy Score = 0.872 ± 0.001
 |Average Scores             |  0.747 ± 0.004 | 0.747 ± 0.005 |
 
 **2. Second set of experiments:** 
+2.1) The best results for Nonspeech7k were got with SVM-rbf and Nearal Network + Interspeech 2013 features. It was possible to outclass the SOTA results. The results are the following:
+**SVM-rbf:**
+|  Class         | F1(SOTA)  | F1(LDA+IS13) |
+|----------------|:---------:|:------------:|
+| breath/дыхание |0.85       | 0.91         |
+| cough/кашель   |  0.76     | 0.68         |
+| cry/плач       |  0.79   | 0.862 ± 0.017 |
+| laugh/смех     |  0.78   | 0.819 ± 0.014 |
+| scream/крик    |  0.83   | 0.765 ± 0.015 |
+| sneeze/чихание |  0.65   | 0.871 ± 0.017 |
+| yawn/зевание   |  0.77   | 0.901 ± 0.027 |
+|Average Weighted Recall|  0.79   | 0.82 |
+|Average Weighted Precision|  0.81   | 0.84 |
+|Average Weighted F1|  0.80  | 0.84 |
+
+
