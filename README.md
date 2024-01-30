@@ -117,6 +117,7 @@ Accuracy Score = 0.872 ± 0.001
 
 **3. Third set of experiments:** 
 3) The best results were achieved in the following case: Vocal Sound for train set, Nonspeech7k for test set, LDA and Neural Network showed the best results woth Interpseech 2013.
+
 **LDA:**
 Accuracy = 0.73
 |  Class         | F1-score  |Recall  |Precision|
