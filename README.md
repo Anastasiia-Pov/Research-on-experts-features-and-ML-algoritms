@@ -118,23 +118,25 @@ Accuracy Score = 0.872 ± 0.001
 **3. Third set of experiments:** 
 3) The best results were achieved in the following case: Vocal Sound for train set, Nonspeech7k for test set, LDA and Neural Network showed the best results woth Interpseech 2013.
 **LDA:**
+Accuracy = 0.73
 |  Class         | F1-score  |Recall  |Precision|
 |----------------|:---------:|:------:|:-------:|
 | cough/кашель   |  0.74     |0.74    |0.75     |
 | laugh/смех     |  0.80     |0.69    |0.95     |
 | sneeze/чихание |  0.52     |0.85    |0.37     |
-|Average Weighted Recall|  0.73 |
-|Average Weighted Precision|  0.81 |
+|Average Weighted Recall||  0.73 |
+|Average Weighted Precision|||  0.81 |
 |Average Weighted F1|  0.75 |
-|Accuracy|  0.73 |
+
 
 **Neural Network:**
+Accuracy = 0.73 
 |  Class         | F1-score  |Recall  |Precision|
 |----------------|:---------:|:------:|:-------:|
 | cough/кашель   |  0.75     |0.73    |0.78     |
 | laugh/смех     |  0.80     |0.71    |0.93     |
 | sneeze/чихание |  0.52     |0.86    |0.37     |
-|Average Weighted Recall|  0.73 |
-|Average Weighted Precision|  0.82|
+|Average Weighted Recall||  0.73 |
+|Average Weighted Precision|||  0.82|
 |Average Weighted F1|  0.75 |
-|Accuracy|  0.73 |
+
