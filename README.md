@@ -1,5 +1,5 @@
 # Research on experts features and ML-algoritms
-This research is about influence of number of extracted features from audio-files and the quality of classification with the use of ML-algorithms
+This research is about influence of number of extracted features from audio-files and the quality of classification with the use of ML-algorithms based on two datasets Nonspeech7k and VocalSound.
 
 ## Extracted features:
 All the features were extracted with openSMILE: [openSMILE] (https://www.audeering.com/research/opensmile/)
